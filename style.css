@@ -1,18 +1,19 @@
 p {
-  font-size: largeer; /* Console warning: Invalid property value */
+  font-size: larger; /* put in as largeer instead of larger */
 }
 
 h1 {
-  fontsize: 23xp;
+  /*was missing the hyphen*/
+  font-size: 23xp;
   color: purple;
 }
 
-.contianer {
-  colro: red;
+.container {
+  color: red;
   width: 500px;
   height: 500px;
   /* background should be the same as #output */
-  background-color: #f3SupeCoolColor;
+  background-color: #000;
 }
 
 #output {
@@ -21,7 +22,11 @@ h1 {
   font-weight: bold;
   text-align: center;
   margin-top: 20px;
-  pudding: 10px;
+  padding: 10px;
+  /*Was put in as pudding instead of padding*/
   border: 1px solid #000;
   background-color: #f0f0f0;
+}
+.color {
+  color: red;
 }
